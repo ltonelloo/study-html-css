@@ -72,13 +72,9 @@ body {
     width: 90%;
     box-shadow: 1px 1px 3px 1px #cfcfcf;
     margin: auto;
-    max-width: 90%;
-    max-height: auto;
-    min-width: none;
-    min-height: none;
-    display: block;
     border: solid 1px #ffffffe5;
     border-radius: 10px;
+    padding: 10px;
 }
 footer p {
     color: #cacaca;

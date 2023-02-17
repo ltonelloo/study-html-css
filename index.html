@@ -2,8 +2,10 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
-        <title>Estudo Html Css JS</title>
+        <title>Estudo HTML CSS JS</title>
         <link rel="stylesheet" href="./css/style.css" />
+        <link rel="stylesheet" href="./css/calculadora.css" />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     </head>
     <body>
         <header>
@@ -16,15 +18,13 @@
 
                 <div id="links">
                     <a href="#">Início</a>
-                    <a href="#grid-container">Grid</a>
                     <a href="#sobre">Sobre</a>
-                    <a href="#contato">Contato</a>
                 </div>
             </nav>
             <br />
             <header-title>
                 <h3>Lucas Tonello</h3>
-                <h4>Estudo sobre Html e CSS</h4>
+                <h4>Estudo sobre HTML, CSS e JS</h4>
             </header-title>
         </header>
 
@@ -201,6 +201,17 @@
                 <li>List 4 - Lorem ipsum dolor sit amet.</li>
                 <li>List 5 - Lorem ipsum dolor sit amet.</li>
             </ul>
+        </section>
+        <br />
+        <section class="container" id="aplicativo">
+            <script>
+                $(function () {
+                    $('#pagina-calculadora').load('calculadora.html');
+                });
+            </script>
+            <h1>Calculadora</h1>
+            <br />
+            <div id="pagina-calculadora"></div>
         </section>
         <br />
         <br />

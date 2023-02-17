@@ -1,0 +1,97 @@
+#aplicativo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: fit-content;
+    height: fit-content;
+}
+#calculadora {
+    background-image: linear-gradient(45deg, #75a6da, #c5cad6);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-self: center;
+    margin: 2rem;
+    padding: 2rem;
+    width: 15rem;
+    height: 23rem;
+    border-radius: 2rem;
+    border: solid 2px #c5cad6;
+
+    box-shadow: 3px 3px 2px #d8e0f9be;
+}
+#resultado {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items: center;
+
+    color: #322c8e;
+    font-size: 2rem;
+    font-weight: bold;
+    width: 16rem;
+    height: 2rem;
+    border: solid 2px #ffffff;
+    border-radius: 1rem;
+    background-image: linear-gradient(180deg, #d8e0f9, #ffffff);
+
+    margin: 0.5rem;
+    padding: 0.2rem;
+    padding-right: 0.5rem;
+
+    box-shadow: 1px 1px 1px #ffffff83;
+}
+
+.botoes {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 3rem;
+    height: 3rem;
+    justify-content: center;
+}
+#grid-botoes {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 0.2rem;
+    border-radius: 2rem;
+}
+
+.botao-operacao {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 1rem;
+    background-image: linear-gradient(45deg, #77abe4, #ebeaea);
+    border: solid 2px #dadadaaf;
+
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.9rem;
+    color: #3d3d3d;
+    text-shadow: 1px 1px #a19e9e9a;
+    box-shadow: 1px 1px 0px #ffffff;
+}
+
+.botao-numero {
+    background-image: linear-gradient(180deg, #d8e0f9, #ffffff);
+    border: solid 2px #ffffff;
+
+    text-align: center;
+    font-size: 1.7rem;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 1rem;
+    color: #170ace;
+    box-shadow: 1px 1px 2px #d8e0f9be;
+    text-shadow: 1px 1px #a19e9e9a;
+    box-shadow: 1px 1px 0px #ffffff;
+}
+
+.botao-numero:hover,
+.botao-operacao:hover {
+    color: #fff;
+    text-shadow: 2px 2px 2px #000;
+}
+
+.botao-numero:active,
+.botao-operacao:active {
+    filter: invert();
+}
