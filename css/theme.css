@@ -1,0 +1,11 @@
+@keyframes change-theme {
+    from {
+    }
+    to {
+        filter: invert();
+    }
+}
+
+#dark-mode:active {
+    animation-name: change-theme;
+}

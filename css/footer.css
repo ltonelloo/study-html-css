@@ -1,0 +1,50 @@
+footer {
+    background-color: #cacaca;
+    box-shadow: 0px 0px 2px #cacaca;
+    width: 97%;
+    height: 5%;
+    padding: 10px;
+
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    z-index: 1;
+}
+
+#contato {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    border-radius: 7px;
+    background-color: #00000013;
+    width: 120px;
+    height: 20px;
+}
+
+.footer-content {
+    margin-right: 10px;
+}
+
+footer p {
+    font-weight: lighter;
+    color: #000;
+    font-size: small;
+    text-align: right;
+}
+
+footer a {
+    font-weight: bold;
+    color: #000;
+    text-shadow: 1px 1px 2px #00000028;
+}
+
+footer a:hover {
+    transition: 300ms;
+    filter: invert();
+}

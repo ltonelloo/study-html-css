@@ -1,0 +1,32 @@
+#change-theme {
+    display: none;
+}
+
+#theme {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 2px;
+
+    width: 5%;
+    height: 60%;
+    border-radius: 15px;
+
+    background-color: #00000038;
+
+    color: #fff;
+}
+
+#btn-theme {
+    text-align: center;
+    font-size: larger;
+}
+
+#change-theme:checked ~ #section {
+    background-image: 45deg, #000, #fff;
+}
+
+#change-theme:not(:checked) ~ #section {
+    background-image: 45deg, #ffff, #000;
+}
